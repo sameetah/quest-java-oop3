@@ -12,16 +12,18 @@ public class Nature {
         pingou.getOut();
 
         Eagle hawkeye = new Eagle("Hawkeye");
-        // TODO : uncomment the following code in order to test it
-        /*
-        hawkeye.takeOff();
+       hawkeye.takeOff();
         hawkeye.ascend(120);
+        System.out.println();
         hawkeye.ascend(30);
+        System.out.println();
         hawkeye.glide();
         hawkeye.descend(140);
+        System.out.println();
         hawkeye.land();
+        System.out.println();
         hawkeye.descend(9);
+        System.out.println();
         hawkeye.land();
-        */
     }
 }
